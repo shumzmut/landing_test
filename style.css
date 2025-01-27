@@ -1,5 +1,6 @@
 /* Basic CSS for styling */
-* {
+* 
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -49,6 +50,42 @@ h1 {
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
+}
+
+/* Navigation bar */
+* 
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background for the navbar */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    z-index: 10;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #3498db;
+    border-radius: 5px;
 }
 
 .button:hover {
