@@ -52,7 +52,7 @@ h1 {
     transition: background-color 0.3s;
 }
 .button:hover {
-    background-color: #2980b9;
+    background-color: #FFEB3B;
 }
 
 /* Navigation bar */
